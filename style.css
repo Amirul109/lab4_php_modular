@@ -1,0 +1,119 @@
+body{
+    background: #EEEEEE;
+    font-family: Arial;
+  }
+h1 {
+font-size: 30px;
+text-align: center;
+}
+
+h1#sub {
+    width: 50%;
+      margin-left: 40px;
+    }
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th,
+td {
+padding: 8px;
+text-align: center;
+border-bottom: 2px solid #ddd;
+border: 2px solid #ccc;
+}
+
+th {
+background-color: #383838;
+color: white;
+}
+
+td img {
+width: 50px;
+height: 50px;
+}
+
+td a {
+background-color: #2438A6;
+color: white;
+padding: 6px 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 4px;
+}
+
+.button {
+background-color: #011126;
+font-size: 15px;
+color: white;
+padding: 6px 12px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 20px;
+float: right;
+}
+.button[type="submit"]:hover {
+background-color: #032859;
+}
+
+
+.input label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.input input[type="text"],
+.input input[type="file"] {
+  width: 50%;
+  border: 2px solid #ccc;
+  margin-left: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.input select {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submit input[type="submit"] {
+  background-color: #011126;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+  background-color: #032859;
+}
+.cancel [type="submit"] {
+  background-color: #D10000;
+  color: white;
+  width: 50%;
+  padding: 12px;
+  border: none;
+  margin-left: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel [type="submit"]:hover {
+  background-color: #FF2400;
+}
